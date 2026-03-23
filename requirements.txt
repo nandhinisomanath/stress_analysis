@@ -1,1 +1,24 @@
-pandas
+# ============================================================
+#  Sleep, Screen Time & Stress Analysis — ML Project
+#  Requirements File
+#  Install: pip install -r requirements.txt
+# ============================================================
+
+# Data manipulation
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.4.2
+
+# Model Serialization
+joblib==1.4.2
+
+# Deployment (FastAPI)
+fastapi==0.111.0
+uvicorn==0.29.0
+pydantic==2.7.1
